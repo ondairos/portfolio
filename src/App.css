@@ -153,6 +153,7 @@
 }
 
 .sect2_product {
+  width: 32%;
   flex-basis: 23%;
   margin-bottom: 20px;
   color: black;
@@ -175,7 +176,7 @@
 
 .sect2_product h3 {
   margin: 0;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .sect2_product p {
