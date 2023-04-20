@@ -140,10 +140,14 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+.section2_header {
+  margin: 0 0 25px 0;
+}
 
 .sect2_product {
   flex-basis: 23%;
   margin-bottom: 20px;
+  color: black;
   background-color: #eee;
   padding: 20px;
   box-sizing: border-box;
