@@ -13,11 +13,23 @@ const Projects = () => {
           <img src={tenzies_shot} alt="Project 1"></img>
           <h3>Tenzies Dice Game</h3>
           <p>Github Link</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id fugit
+            ratione maiores dolore repudiandae in natus temporibus voluptates
+            dicta asperiores consequuntur animi, minus nesciunt voluptatem rem
+            magnam sequi, officia nemo.
+          </p>
         </div>
         <div className="sect2_product">
           <img src={hs_shot} alt="Project 2"></img>
           <h3>Hearthstone Festival of Legends</h3>
           <p>Github Link</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id fugit
+            ratione maiores dolore repudiandae in natus temporibus voluptates
+            dicta asperiores consequuntur animi, minus nesciunt voluptatem rem
+            magnam sequi, officia nemo.
+          </p>
         </div>
         <div className="sect2_product">
           <img src={flick_shot} alt="Project 3"></img>
