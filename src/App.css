@@ -199,10 +199,20 @@
 }
 
 /* SECTION 3 TECH STACK END */
+
+/* SECTION 4 CONTACT START */
+.section4 {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  width: 100%;
+  height: 650px;
+  background-color: rgb(50, 50, 50);
+}
+/* SECTION 4 CONTACT END */
 .footer {
   width: 100%;
   height: 50px;
-  background-color: rgb(50, 50, 50);
+  background-color: rgb(151, 151, 151);
   text-align: center;
   display: flex;
   align-items: center;
