@@ -6,9 +6,9 @@ const NavBar = () => {
     <div className="box nav">
       <nav id="navId" className="navMenu">
         <a href="#navId">Home</a>
-        <a href="#sect1">Blog</a>
+        <a href="#sect1">About</a>
         <a href="#sect2">Projects</a>
-        <a href="#sect3">About</a>
+        <a href="#sect3">Tech Stack</a>
         <div className="dot"></div>
       </nav>
     </div>
