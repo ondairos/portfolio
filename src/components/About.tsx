@@ -17,7 +17,9 @@ const About = () => {
         </p>
       </div>
       <div className="section1_socials">
-        <p>LinkedIn Twitter Instagram Github</p>
+        <p className="section1_socials_l">
+          LinkedIn | Twitter | Instagram | Github
+        </p>
       </div>
     </div>
   );
