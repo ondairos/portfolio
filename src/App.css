@@ -67,22 +67,41 @@
 
 .section1 {
   width: 100%;
-  height: 350px;
+  height: auto;
   background-color: rgb(151, 151, 151);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding-left: 50px;
+  padding-right: 50px;
   padding-top: 18px;
   padding-bottom: 18px;
   align-items: center;
   border: 1px black solid;
 }
 
-.section1_textTestimonial {
+.section1_textAbout {
+  display: flex;
+  height: auto;
+  align-items: center;
+  justify-content: center;
   width: 100%;
 }
+.section1_pic_div {
+  width: 30%;
+}
 
-.socials {
+.section1_pic {
+  border-radius: 50px;
+  height: 200px;
+  margin: 10px;
+}
+.section1_text {
+  width: 70%;
+}
+
+.section1_socials {
+  margin: 15px;
   width: 100%;
 }
 
@@ -101,7 +120,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   max-width: 1200px;
-  margin: 12px;
+  margin: 0 auto;
 }
 
 .sect2_product {
