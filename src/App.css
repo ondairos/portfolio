@@ -72,8 +72,6 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding-left: 50px;
-  padding-right: 50px;
   padding-top: 18px;
   padding-bottom: 18px;
   align-items: center;
@@ -85,14 +83,13 @@
   height: auto;
   align-items: center;
   justify-content: center;
-  width: 100%;
 }
 .section1_pic_div {
   width: 30%;
 }
 
 .section1_pic {
-  border-radius: 50px;
+  border-radius: 100px;
   height: 200px;
   margin: 10px;
 }
