@@ -87,7 +87,7 @@
 }
 
 .section1_pic_div {
-  width: 20%;
+  width: 40%;
 }
 
 .section1_pic {
@@ -96,11 +96,10 @@
   filter: drop-shadow(0px 2px 1px black);
 }
 .section1_text {
-  padding-left: 25px;
   font-size: medium;
   filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.6));
   line-height: 20pt;
-  width: 50%;
+  width: 100%;
 }
 
 .section1_socials {
@@ -123,6 +122,7 @@
   }
 
   .section1_pic_div {
+    margin: 10px 0 18px 0;
     width: 100%;
   }
 

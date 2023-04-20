@@ -15,8 +15,10 @@ const About = () => {
           cool and elegant applications.
           <br />
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint eum
-          dolor quam, earum amet sit porro eius esse natus. Laborum non ab
-          excepturi sapiente fugit? Porro accusantium voluptates assumenda quia!
+          dolor quam, earum amet sit porro eius esse natus.
+          <br />
+          Laborum non ab excepturi sapiente fugit? Porro accusantium voluptates
+          assumenda quia!
         </p>
       </div>
       <div className="section1_socials">
