@@ -8,6 +8,7 @@ const NavBar = () => {
         <a href="#sect1">About</a>
         <a href="#sect2">Projects</a>
         <a href="#sect3">Tech Stack</a>
+        <a href="#sect4">Contact</a>
         <div className="dot"></div>
       </nav>
     </div>

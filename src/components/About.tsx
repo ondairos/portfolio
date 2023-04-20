@@ -10,15 +10,9 @@ const About = () => {
           <img src={iconPhoto} alt="" className="section1_pic" />
         </div>
         <p className="section1_text">
-          Hi, I am John. <br />
-          I'm a Junior Full Stack Developer using the MERN Stack and building
-          cool and elegant applications.
-          <br />
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint eum
-          dolor quam, earum amet sit porro eius esse natus.
-          <br />
-          Laborum non ab excepturi sapiente fugit? Porro accusantium voluptates
-          assumenda quia!
+          Hi, I am <span className="section_name_span">John.</span> <br />
+          I'm a Junior Full Stack Developer <br /> passionate about creating
+          interactive and cool applications.
         </p>
       </div>
       <div className="section1_socials">
