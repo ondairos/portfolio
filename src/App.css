@@ -41,12 +41,10 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  /* -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%); */
 }
 
 .navMenu a {
-  margin: 0 7px 0 7px;
+  margin: 0 18px 0 7px;
   color: #f6f4e6;
   text-decoration: none;
   font-size: 1.2em;
@@ -58,7 +56,7 @@
 }
 
 .navMenu a:hover {
-  color: #6bed83;
+  color: #ffffff;
   transform: scale(1.1);
   transition: 0.4s ease-out;
 }
