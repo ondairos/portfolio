@@ -11,7 +11,9 @@ const About = () => {
         <p className="section1_text">
           Hi, I am John. <br />
           I'm a Junior Full Stack Developer using the MERN Stack and building
-          cool and elegant applications. I'm currently working at Lorem Ipsum.
+          cool and elegant applications.
+          <br />
+          I'm currently working at Lorem Ipsum.
         </p>
       </div>
       <div className="section1_socials">
