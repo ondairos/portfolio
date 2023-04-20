@@ -15,7 +15,7 @@ const About = () => {
         </p>
       </div>
       <div className="section1_socials">
-        <p>LinkedIn Twitter Instagram Facebook</p>
+        <p>LinkedIn Twitter Instagram Github</p>
       </div>
     </div>
   );
