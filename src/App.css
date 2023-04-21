@@ -186,7 +186,10 @@
   margin: 0 auto;
 }
 .section2_header {
-  margin: 0 0 25px 0;
+  font-size: 2.5rem;
+  color: white;
+  filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.9));
+  margin: 15px 0 30px 0;
 }
 
 .sect2_product {
@@ -228,12 +231,18 @@
 
 /* SECTION 3 TECH STACK START */
 .section3 {
-  padding-top: 15px;
-  padding-bottom: 10px;
+  padding-top: 25px;
+  padding-bottom: 30px;
   width: 100%;
   height: auto;
   background-color: rgb(151, 151, 151);
   border: 1px black solid;
+}
+
+.section3 h1 {
+  font-size: 2.5rem;
+  color: white;
+  filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.9));
 }
 
 .section3_container {
@@ -249,12 +258,14 @@
   padding: 15px;
   margin: 10px;
   height: auto;
-  width: 25%;
-  background-color: rgb(228, 227, 227);
-  /* align-items: center; */
-  /* justify-content: center; */
+  width: 20%;
+  background-color: #eee;
   filter: drop-shadow(2px 3px 3px rgba(0, 0, 0, 0.6));
-  border-radius: 65px;
+  border-radius: 5px;
+}
+
+.s3other {
+  height: 474px;
 }
 
 .section3_frontend {
@@ -263,6 +274,7 @@
 }
 
 .section3_col1_header {
+  filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.9));
   font-size: x-large;
   width: 100%;
   height: 50px;
@@ -284,7 +296,8 @@
 }
 
 .section3_col1_fr_ip p {
-  margin-left: 20px;
+  margin-left: 10px;
+  margin-right: 22px;
   color: black;
   width: 30%;
 }
@@ -297,8 +310,21 @@
 .section3_col1_fr_ip img {
   height: 65px;
   width: 65px;
-  margin: 8px 0 8px 0;
+  margin: 8px 0 8px 38px;
   filter: drop-shadow(1px 2px 2px rgba(0, 0, 0, 0.2));
+}
+@media only screen and (max-width: 850px) {
+  .section3_col1,
+  .section3_col2,
+  .section3_col3 {
+    padding: 15px;
+    margin: 10px;
+    height: auto;
+    width: 33%;
+    background-color: #eee;
+    filter: drop-shadow(2px 3px 3px rgba(0, 0, 0, 0.6));
+    border-radius: 5px;
+  }
 }
 
 @media only screen and (max-width: 450px) {
@@ -320,7 +346,7 @@
 
   .section3_col1_fr_ip p {
     margin-left: 20px;
-    width: 55%;
+    width: 40%;
   }
 
   .image {
@@ -328,7 +354,7 @@
   }
 }
 
-@media only screen and (max-width: 828px) {
+@media only screen and (max-width: 770px) {
   .section3_container {
     margin: 35px;
     display: flex;
@@ -340,12 +366,12 @@
   .section3_col1,
   .section3_col2,
   .section3_col3 {
-    width: 85%;
+    width: 60%;
   }
 
   .section3_col1_fr_ip p {
     margin-left: 20px;
-    width: 55%;
+    width: 20%;
   }
 
   .image {
@@ -360,11 +386,85 @@
   padding-top: 15px;
   padding-bottom: 10px;
   width: 100%;
-  height: 650px;
+  height: auto;
   background-color: rgb(50, 50, 50);
   border: 1px black solid;
 }
+
+section {
+  padding: 40px 15%;
+}
+
+.contact {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: center;
+  grid-gap: 6rem;
+}
+
+.contact-form h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.6));
+}
+
+.contact-form p {
+  color: rgb(203, 202, 202);
+  letter-spacing: 1px;
+  line-height: 26px;
+  font-size: 1.1rem;
+  margin-bottom: 3.8rem;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 1));
+}
+
+.contact-form form {
+  position: relative;
+  margin: 0 auto;
+  width: 85%;
+}
+
+.contact-form form input,
+form textarea {
+  width: 100%;
+  padding: 17px;
+  border: none;
+  outline: none;
+  background: #191919;
+  color: #fff;
+  font-size: 1.1rem;
+  margin-bottom: 0.7rem;
+  border-radius: 10px;
+}
+
+.contact-form textarea {
+  resize: none;
+  height: 200px;
+}
+
+.contact-form form .btn {
+  display: inline-block;
+  background-color: black;
+  font-size: 1.1.rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  width: 220px;
+  transform: scale(1.1);
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.contact-form form .btn:hover {
+  border: 2px solid rgb(203, 202, 202);
+  background: transparent;
+  transform: scale(1.1);
+}
 /* SECTION 4 CONTACT END */
+
 .footer {
   width: 100%;
   height: 50px;

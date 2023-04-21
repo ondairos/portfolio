@@ -7,7 +7,7 @@ import flick_shot from "../assets/flick_screen.jpg";
 const Projects = () => {
   return (
     <div id="sect2" className="box section2">
-      <h1 className="section2_header">Projects:</h1>
+      <h1 className="section2_header">Projects</h1>
       <div className="sect2_container">
         <div className="sect2_product">
           <img src={tenzies_shot} alt="Project 1"></img>
