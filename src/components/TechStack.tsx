@@ -76,7 +76,6 @@ const TechStack = () => {
             </div>
           </div>
         </div>
-
         <div className="section3_col1">
           <div className="section3_frontend">
             <div className="section3_col1_header">
@@ -110,8 +109,6 @@ const TechStack = () => {
             </div>
           </div>
         </div>
-        {/* <div className="section3_col2">back</div> */}
-        {/* <div className="section3_col3">other</div> */}
       </div>
     </div>
   );
