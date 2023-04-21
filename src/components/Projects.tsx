@@ -1,5 +1,8 @@
 import React from "react";
 import "../App.css";
+import tenzies_shot from "../assets/tenzies_screen.jpg";
+import hs_shot from "../assets/hs_screen.jpg";
+import flick_shot from "../assets/flick_screen.jpg";
 
 const Projects = () => {
   return (
@@ -7,19 +10,40 @@ const Projects = () => {
       <h1 className="section2_header">Projects:</h1>
       <div className="sect2_container">
         <div className="sect2_product">
-          <img src="https://via.placeholder.com/250x250" alt="Project 1"></img>
+          <img src={tenzies_shot} alt="Project 1"></img>
           <h3>Tenzies Dice Game</h3>
           <p>Github Link</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id fugit
+            ratione maiores dolore repudiandae in natus temporibus voluptates
+            dicta asperiores consequuntur animi, minus nesciunt voluptatem rem
+            magnam sequi, officia nemo.
+          </p>
+          <p className="sect2_tags">ReactJS, Javascript,Omdb API</p>
         </div>
         <div className="sect2_product">
-          <img src="https://via.placeholder.com/250x250" alt="Project 2"></img>
+          <img src={hs_shot} alt="Project 2"></img>
           <h3>Hearthstone Festival of Legends</h3>
           <p>Github Link</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id fugit
+            ratione maiores dolore repudiandae in natus temporibus voluptates
+            dicta asperiores consequuntur animi, minus nesciunt voluptatem rem
+            magnam sequi, officia nemo.
+          </p>
+          <p className="sect2_tags">ReactJS, Javascript,Omdb API</p>
         </div>
         <div className="sect2_product">
-          <img src="https://via.placeholder.com/250x250" alt="Project 3"></img>
-          <h3>Project 3</h3>
+          <img src={flick_shot} alt="Project 3"></img>
+          <h3>Flick Movie Search</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, alias
+            mollitia provident corrupti animi consequatur ducimus quasi nisi
+            tempore similique ipsa sit magnam odit voluptatum vero quibusdam
+            itaque molestias omnis!
+          </p>
           <p>Github Link</p>
+          <p className="sect2_tags">ReactJS, Javascript,Omdb API</p>
         </div>
         <div className="sect2_product">
           <img src="https://via.placeholder.com/250x250" alt="Project 4"></img>
