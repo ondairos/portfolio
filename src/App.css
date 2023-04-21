@@ -250,7 +250,7 @@
   margin: 10px;
   height: auto;
   width: 25%;
-  background-color: rgb(179, 179, 179);
+  background-color: rgb(228, 227, 227);
   /* align-items: center; */
   /* justify-content: center; */
   filter: drop-shadow(1px 2px 2px rgba(0, 0, 0, 0.6));
@@ -263,9 +263,10 @@
 }
 
 .section3_col1_header {
+  font-size: x-large;
   width: 100%;
   height: 50px;
-  background-color: red;
+  color: Black;
 }
 
 .section3_col1_frontend_icontainer {
@@ -274,7 +275,6 @@
   flex-direction: column;
   width: 100%;
   height: 90%;
-  background-color: beige;
 }
 
 .section3_col1_fr_ip {
@@ -290,7 +290,6 @@
 }
 
 .image {
-  width: 30%;
   align-items: center;
   justify-content: center;
 }
@@ -316,17 +315,11 @@
   .section3_col3 {
     margin: 10px;
     height: 500px;
-    width: 80%;
-    background-color: rgb(179, 179, 179);
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-    filter: drop-shadow(1px 2px 2px rgba(0, 0, 0, 0.6));
+    width: 100%;
   }
 
   .section3_col1_fr_ip p {
     margin-left: 20px;
-    color: black;
     width: 55%;
   }
 
@@ -347,16 +340,11 @@
   .section3_col1,
   .section3_col2,
   .section3_col3 {
-    margin: 10px;
-    height: 500px;
-    width: 90%;
-    background-color: rgb(179, 179, 179);
-    filter: drop-shadow(1px 2px 2px rgba(0, 0, 0, 0.6));
+    width: 85%;
   }
 
   .section3_col1_fr_ip p {
     margin-left: 20px;
-    color: black;
     width: 55%;
   }
 
