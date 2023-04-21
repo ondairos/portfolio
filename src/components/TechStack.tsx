@@ -43,10 +43,11 @@ const TechStack = () => {
             </div>
           </div>
         </div>
+        {/* ================ */}
         <div className="section3_col1">
           <div className="section3_frontend">
             <div className="section3_col1_header">
-              <h3>Frontend:</h3>
+              <h3>Backend:</h3>
             </div>
             <div className="section3_col1_frontend_icontainer">
               <div className="section3_col1_fr_ip">
@@ -76,10 +77,11 @@ const TechStack = () => {
             </div>
           </div>
         </div>
+        {/* ============ */}
         <div className="section3_col1">
           <div className="section3_frontend">
             <div className="section3_col1_header">
-              <h3>Frontend:</h3>
+              <h3>Other:</h3>
             </div>
             <div className="section3_col1_frontend_icontainer">
               <div className="section3_col1_fr_ip">
