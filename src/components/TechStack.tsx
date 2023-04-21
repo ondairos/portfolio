@@ -22,24 +22,6 @@ const TechStack = () => {
                 </div>
                 <p>React JS</p>
               </div>
-              <div className="section3_col1_fr_ip">
-                <div className="image">
-                  <img src={NodeIcon} alt="NodeIcon" />
-                </div>
-                <p>NodeJS</p>
-              </div>
-              <div className="section3_col1_fr_ip">
-                <div className="image">
-                  <img src={MongoIcon} alt="MongoIcon" />
-                </div>
-                <p>MongoDB</p>
-              </div>
-              <div className="section3_col1_fr_ip">
-                <div className="image">
-                  <img src={ExpressIcon} alt="ExpressIcon" />
-                </div>
-                <p>ExpressJS</p>
-              </div>
             </div>
           </div>
         </div>
@@ -50,12 +32,6 @@ const TechStack = () => {
               <h3>Backend:</h3>
             </div>
             <div className="section3_col1_frontend_icontainer">
-              <div className="section3_col1_fr_ip">
-                <div className="image">
-                  <img src={ReactIcon} alt="ReactIcon" />
-                </div>
-                <p>React JS</p>
-              </div>
               <div className="section3_col1_fr_ip">
                 <div className="image">
                   <img src={NodeIcon} alt="NodeIcon" />
@@ -89,24 +65,6 @@ const TechStack = () => {
                   <img src={ReactIcon} alt="ReactIcon" />
                 </div>
                 <p>React JS</p>
-              </div>
-              <div className="section3_col1_fr_ip">
-                <div className="image">
-                  <img src={NodeIcon} alt="NodeIcon" />
-                </div>
-                <p>NodeJS</p>
-              </div>
-              <div className="section3_col1_fr_ip">
-                <div className="image">
-                  <img src={MongoIcon} alt="MongoIcon" />
-                </div>
-                <p>MongoDB</p>
-              </div>
-              <div className="section3_col1_fr_ip">
-                <div className="image">
-                  <img src={ExpressIcon} alt="ExpressIcon" />
-                </div>
-                <p>ExpressJS</p>
               </div>
             </div>
           </div>
