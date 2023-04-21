@@ -19,6 +19,7 @@ const Projects = () => {
             dicta asperiores consequuntur animi, minus nesciunt voluptatem rem
             magnam sequi, officia nemo.
           </p>
+          <p className="sect2_tags">ReactJS, Javascript,Omdb API</p>
         </div>
         <div className="sect2_product">
           <img src={hs_shot} alt="Project 2"></img>
@@ -30,11 +31,19 @@ const Projects = () => {
             dicta asperiores consequuntur animi, minus nesciunt voluptatem rem
             magnam sequi, officia nemo.
           </p>
+          <p className="sect2_tags">ReactJS, Javascript,Omdb API</p>
         </div>
         <div className="sect2_product">
           <img src={flick_shot} alt="Project 3"></img>
-          <h3>Project 3</h3>
+          <h3>Flick Movie Search</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, alias
+            mollitia provident corrupti animi consequatur ducimus quasi nisi
+            tempore similique ipsa sit magnam odit voluptatum vero quibusdam
+            itaque molestias omnis!
+          </p>
           <p>Github Link</p>
+          <p className="sect2_tags">ReactJS, Javascript,Omdb API</p>
         </div>
         <div className="sect2_product">
           <img src="https://via.placeholder.com/250x250" alt="Project 4"></img>
