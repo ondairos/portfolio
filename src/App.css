@@ -30,9 +30,9 @@
   height: 80px;
   background-color: rgba(40, 40, 40, 0.95);
   display: flex;
-  border: 1px black solid;
   position: relative;
   /* z-index: 1; */
+  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.9));
 }
 
 .navMenu {
@@ -123,7 +123,7 @@
 }
 
 .section1_socials_l {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: bold;
   filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.9));
 }
@@ -134,7 +134,7 @@
 
 .section1_linkedin:hover {
   transform: scale(1.2);
-  transition: ease-in 0.2s;
+  transition: ease-out 0.2s;
   color: #3081d2;
 }
 
@@ -182,7 +182,7 @@
   width: 100%;
   height: auto;
   background-color: rgba(40, 40, 40, 0.95);
-  border: 1px black solid;
+  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.9));
 }
 .sect2_container {
   display: flex;
@@ -242,7 +242,6 @@
   width: 100%;
   height: auto;
   background-color: rgb(151, 151, 151);
-  border: 1px black solid;
 }
 
 .section3 h1 {
@@ -437,7 +436,7 @@
   width: 100%;
   height: auto;
   background-color: rgba(40, 40, 40, 0.95);
-  border: 1px black solid;
+  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.9));
 }
 
 section {
