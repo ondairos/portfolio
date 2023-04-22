@@ -28,7 +28,7 @@
 .nav {
   width: 100%;
   height: 80px;
-  background-color: rgb(50, 50, 50);
+  background-color: rgba(40, 40, 40, 0.95);
   display: flex;
   border: 1px black solid;
   position: relative;
@@ -68,7 +68,7 @@
 .section1 {
   width: 100%;
   height: auto;
-  background-color: rgb(151, 151, 151);
+  background-color: hsl(0, 0%, 54%);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -76,6 +76,12 @@
   padding-bottom: 18px;
   align-items: center;
   border: 1px black solid;
+}
+
+.greeter {
+  font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 15px;
 }
 
 .section1_textAbout {
@@ -175,7 +181,7 @@
   padding-bottom: 10px;
   width: 100%;
   height: auto;
-  background-color: rgb(50, 50, 50);
+  background-color: rgba(40, 40, 40, 0.95);
   border: 1px black solid;
 }
 .sect2_container {
@@ -430,7 +436,7 @@
   padding-bottom: 10px;
   width: 100%;
   height: auto;
-  background-color: rgb(50, 50, 50);
+  background-color: rgba(40, 40, 40, 0.95);
   border: 1px black solid;
 }
 

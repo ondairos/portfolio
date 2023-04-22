@@ -7,9 +7,13 @@ const About = () => {
     <div id="sect1" className="box section1">
       <div className="section1_textAbout">
         <img src={iconPhoto} alt="" className="section1_pic" />
+
         <p className="section1_text">
-          Hi, I am <span className="section_name_span">John.</span> <br />
+          <h2 className="greeter">
+            Hi, I am <span className="section_name_span">John.</span> <br />
+          </h2>
           I'm a Junior Full Stack Developer <br /> passionate about creating
+          <br />
           interactive and cool applications.
         </p>
       </div>
