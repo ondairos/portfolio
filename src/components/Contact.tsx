@@ -7,14 +7,8 @@ const Contact = () => {
       <section className="contact">
         <div className="contact-form">
           <h1>
-            Contact <span>Me</span>
+            Contact <span>me</span>
           </h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-            voluptatibus architecto, hic totam dignissimos veniam? Sit sapiente
-            quod aperiam quia atque maxime, placeat cumque eligendi porro, unde
-            veniam dignissimos dicta.
-          </p>
           <form action="">
             <input type="text" placeholder="Your Name" required />
             <input
