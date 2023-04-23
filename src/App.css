@@ -436,7 +436,7 @@
   width: 100%;
   height: auto;
   background-color: rgba(40, 40, 40, 0.95);
-  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.9));
+  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.3));
 }
 
 section {
@@ -512,6 +512,16 @@ form textarea {
   transform: scale(1.1);
 }
 /* SECTION 4 CONTACT END */
+
+.to_top_button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  height: 40px;
+  width: 40px;
+  font-size: 40px;
+  opacity: 0.33;
+}
 
 .footer {
   width: 100%;

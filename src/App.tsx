@@ -5,6 +5,7 @@ import Projects from "./components/Projects";
 import TechStack from "./components/TechStack";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
+import ToTopButton from "./components/ToTopButton";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Projects />
       <TechStack />
       <Contact />
+      <ToTopButton />
       <Footer />
     </div>
   );
