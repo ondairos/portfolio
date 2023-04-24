@@ -7,6 +7,7 @@ import hs_shot from "../assets/hs_screen.jpg";
 import flick_shot from "../assets/flick_screen.jpg";
 import note_shot from "../assets/Notes_screen.jpg";
 import travel_shot from "../assets/travel_screen.jpg";
+import digital_card_shot from "../assets/digital_card_screen.jpg";
 
 const Projects = () => {
   return (
@@ -193,28 +194,30 @@ const Projects = () => {
         <div className="sect2_product">
           <img
             className="sect2_product_img"
-            src="https://via.placeholder.com/250x250"
+            src={digital_card_shot}
             alt="Project 6"
           ></img>
-          <h3 className="sect2_header_h3">Project 6</h3>
+          <h3 className="sect2_header_h3">Digital Card</h3>
           <div className="sect2_links_container">
             {" "}
-            <a href="">
+            <a href="https://github.com/ondairos/digital_card">
               <img
                 className="sect2_github_icon"
                 src={github_icon}
                 alt="github"
               ></img>
             </a>{" "}
-            <a href="">
+            <a href="https://stirring-gecko-25862c.netlify.app/">
               <img className="sect2_github_icon" src={live_icon} alt="live" />
             </a>
           </div>
           <p className="sect2_descr">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-            optio, quibusdam maxime fugiat, doloribus voluptatem excepturi sint
-            eius delectus corporis, commodi veniam! Perferendis officia magni
-            saepe corporis. Placeat, laborum rem?
+            Digital Personal Card created ReactJS, HTML and CSS.
+          </p>
+          <p className="sect2_tags">
+            <span className="s_tag">ReactJS</span>
+            <span className="s_tag">HTML</span>
+            <span className="s_tag">CSS</span>
           </p>
         </div>
       </div>
