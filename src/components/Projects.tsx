@@ -20,7 +20,7 @@ const Projects = () => {
             alt="Project 2"
           ></img>
           <div className="sect2_product_info">
-            <h3>Hearthstone Festival of Legends</h3>
+            <h3 className="sect2_header_h3">Festival of Legends</h3>
             <div className="sect2_links_container">
               <a href="https://github.com/ondairos/Festival_of_Legends_Cards">
                 <img
@@ -59,7 +59,7 @@ const Projects = () => {
             alt="Project 3"
           ></img>
           <div className="sect2_product_info">
-            <h3>Flick Movie Search</h3>
+            <h3 className="sect2_header_h3">Flick Movie Search</h3>
             <div className="sect2_links_container">
               <a href="https://github.com/ondairos/react_movie_project">
                 <img
@@ -94,7 +94,7 @@ const Projects = () => {
             alt="Project 4"
           ></img>
           <div className="sect2_product_info">
-            <h3>Notes Project</h3>
+            <h3 className="sect2_header_h3">Notes Project</h3>
             <div className="sect2_links_container">
               <a href="https://github.com/ondairos/notes_project">
                 <img
@@ -132,7 +132,7 @@ const Projects = () => {
             alt="Project 1"
           ></img>
           <div className="sect2_product_info">
-            <h3>Tenzies Dice Game</h3>
+            <h3 className="sect2_header_h3">Tenzies Dice Game</h3>
             <div className="sect2_links_container">
               <a href="https://github.com/ondairos/tenzies_game">
                 <img
@@ -165,7 +165,7 @@ const Projects = () => {
             alt="Project 5"
           ></img>
           <div className="sect2_product_info">
-            <h3>Travel Journal</h3>
+            <h3 className="sect2_header_h3">Travel Journal</h3>
             <div className="sect2_links_container">
               <a href="https://github.com/ondairos/React_Travel_Guide">
                 <img
@@ -196,7 +196,7 @@ const Projects = () => {
             src="https://via.placeholder.com/250x250"
             alt="Project 6"
           ></img>
-          <h3>Project 6</h3>
+          <h3 className="sect2_header_h3">Project 6</h3>
           <div className="sect2_links_container">
             {" "}
             <a href="">
