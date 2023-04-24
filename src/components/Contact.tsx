@@ -9,6 +9,7 @@ const Contact = () => {
           <h1>
             Contact <span>me</span>
           </h1>
+          <h5>Email: jkantiloros [at] gmail.com</h5>
           <form action="">
             <input type="text" placeholder="Your Name" required />
             <input
