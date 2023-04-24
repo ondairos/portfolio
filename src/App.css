@@ -219,7 +219,11 @@
 }
 
 .sect2_product_info {
+  line-height: 20px;
   height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .sect2_descr {

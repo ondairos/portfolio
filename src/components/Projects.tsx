@@ -43,11 +43,15 @@ const Projects = () => {
           <img src={flick_shot} alt="Project 3"></img>
           <div className="sect2_product_info">
             <h3>Flick Movie Search</h3>
-            <p className="sect2_descr">
-              Movie Search App, utilizing ReactJS and OMDb API.
-            </p>
-            <a href="https://github.com/ondairos/react_movie_project">Github</a>{" "}
+            <a href="https://github.com/ondairos/react_movie_project">
+              Github
+            </a>{" "}
             <a href="https://react-movie-deploy.vercel.app/">Live</a>
+            <p className="sect2_descr">
+              Movie Search App, utilizing ReactJS and OMDb API.<br></br>Type
+              your query in the search box and click the icon to get your info
+              about the movies you want.
+            </p>
             <p className="sect2_tags">
               <span className="s_tag">ReactJS</span>{" "}
               <span className="s_tag">Javascript</span>
@@ -62,13 +66,14 @@ const Projects = () => {
           <img src={note_shot} alt="Project 4"></img>
           <div className="sect2_product_info">
             <h3>Notes Project</h3>
-            <p className="sect2_descr">
-              Notes Project is a simple Markdown note-taking app built with
-              React. It allows users to create, edit and save notes in Markdown
-              format.
-            </p>
             <a href="https://github.com/ondairos/notes_project">Github</a>{" "}
             <a href="">Live</a>
+            <p className="sect2_descr">
+              Notes Project is a simple Markdown note-taking app built with
+              React.
+              <br /> It allows users to create, edit and save notes in Markdown
+              format.
+            </p>
             <p className="sect2_tags">
               <span className="s_tag">ReactJS</span>{" "}
               <span className="s_tag">React Split</span>
@@ -103,18 +108,22 @@ const Projects = () => {
 
         <div className="sect2_product">
           <img src={travel_shot} alt="Project 5"></img>
-          <h3>Travel Journal</h3>
-          <p className="sect2_descr">
-            Travel Journal app created for displaying personal visits to
-            international destinations.
-          </p>
-          <a href="https://github.com/ondairos/React_Travel_Guide">Github</a>{" "}
-          <a href="https://celadon-clafoutis-93bebf.netlify.app/">Live</a>
-          <p className="sect2_tags">
-            <span className="s_tag">ReactJS</span>{" "}
-            <span className="s_tag">HTML</span>
-            <span className="s_tag">CSS</span>
-          </p>
+          <div className="sect2_product_info">
+            <h3>Travel Journal</h3>
+            <a href="https://github.com/ondairos/React_Travel_Guide">
+              Github
+            </a>{" "}
+            <a href="https://celadon-clafoutis-93bebf.netlify.app/">Live</a>
+            <p className="sect2_descr">
+              Travel Journal app created for displaying personal visits to
+              international destinations.
+            </p>
+            <p className="sect2_tags">
+              <span className="s_tag">ReactJS</span>{" "}
+              <span className="s_tag">HTML</span>
+              <span className="s_tag">CSS</span>
+            </p>
+          </div>
         </div>
 
         <div className="sect2_product">
