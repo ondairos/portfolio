@@ -13,60 +13,84 @@ const Projects = () => {
       <div className="sect2_container">
         <div className="sect2_product">
           <img src={hs_shot} alt="Project 2"></img>
-          <h3>Hearthstone Festival of Legends</h3>
-          <p>
-            <a href="https://github.com/ondairos/Festival_of_Legends_Cards">
-              Github
-            </a>{" "}
-            <a href="https://luxury-taffy-98aa2d.netlify.app/">Live</a>
-          </p>
-          <p>
-            This is a FullStack web application that displays all the new card
-            content for an upcoming card game expansion. Using a custom made
-            REST API endpoint data is served to a React application that
-            displays it, filtered by classes.
-          </p>
-          <p className="sect2_tags">
-            NodeJS, ExpressJS, ReactJS, Typescript, Axios, REST, HTML, CSS
-          </p>
+          <div className="sect2_product_info">
+            <h3>Hearthstone Festival of Legends</h3>
+            <p>
+              <a href="https://github.com/ondairos/Festival_of_Legends_Cards">
+                Github
+              </a>{" "}
+              <a href="https://luxury-taffy-98aa2d.netlify.app/">Live</a>
+            </p>
+            <p>
+              This is a FullStack web application that displays all the new card
+              content for an upcoming card game expansion. Using a custom made
+              REST API endpoint data is served to a React application that
+              displays it, filtered by classes.
+            </p>
+            <p className="sect2_tags">
+              <span className="s_tag">NodeJS</span>
+              <span className="s_tag">ExpressJS</span>
+              <span className="s_tag">ReactJS</span>
+              <span className="s_tag">Typescript</span>
+              <span className="s_tag">Axios</span>
+              <span className="s_tag">REST</span>
+              <span className="s_tag">HTML</span>
+              <span className="s_tag">CSS</span>
+            </p>
+          </div>
         </div>
         <div className="sect2_product">
           <img src={flick_shot} alt="Project 3"></img>
-          <h3>Flick Movie Search</h3>
-          <p>Movie Search App, utilizing ReactJS and omDB API.</p>
-          <a href="https://github.com/ondairos/react_movie_project">
-            Github
-          </a>{" "}
-          <a href="https://react-movie-deploy.vercel.app/">Live</a>
-          <p className="sect2_tags">ReactJS, Javascript,omdb API, HTML, CSS</p>
+          <div className="sect2_product_info">
+            <h3>Flick Movie Search</h3>
+            <p>Movie Search App, utilizing ReactJS and OMDb API.</p>
+            <a href="https://github.com/ondairos/react_movie_project">
+              Github
+            </a>{" "}
+            <a href="https://react-movie-deploy.vercel.app/">Live</a>
+            <p className="sect2_tags">
+              <span className="s_tag">ReactJS</span>{" "}
+              <span className="s_tag">Javascript</span>
+              <span className="s_tag">OMDb API</span>
+              <span className="s_tag">HTML</span>
+              <span className="s_tag">CSS</span>
+            </p>
+          </div>
         </div>
 
         <div className="sect2_product">
           <img src={note_shot} alt="Project 4"></img>
-          <h3>Notes Project</h3>
-          <p>
-            Notes Project is a simple Markdown note-taking app built with React.
-            It allows users to create, edit and save notes in Markdown format.
-          </p>
-          <a href="https://github.com/ondairos/notes_project">Github</a>{" "}
-          <a href="">Live</a>
-          <p className="sect2_tags">
-            ReactJS,React Split,Showdown, Javascript, HTML, CSS
-          </p>
+          <div className="sect2_product_info">
+            <h3>Notes Project</h3>
+            <p>
+              Notes Project is a simple Markdown note-taking app built with
+              React. It allows users to create, edit and save notes in Markdown
+              format.
+            </p>
+            <a href="https://github.com/ondairos/notes_project">Github</a>{" "}
+            <a href="">Live</a>
+            <p className="sect2_tags">
+              ReactJS,React Split,Showdown, Javascript, HTML, CSS
+            </p>
+          </div>
         </div>
+
         <div className="sect2_product">
           <img src={tenzies_shot} alt="Project 1"></img>
-          <h3>Tenzies Dice Game</h3>
-          <p>
-            <a href="https://github.com/ondairos/tenzies_game">Github</a>{" "}
-            <a href="https://majestic-starship-884e43.netlify.app/">Live</a>
-          </p>
-          <p>
-            A dice game that allows players to roll the dice and keep track of
-            their scores.
-          </p>
-          <p className="sect2_tags">ReactJS, Javascript, HTML, CSS</p>
+          <div className="sect2_product_info">
+            <h3>Tenzies Dice Game</h3>
+            <p>
+              <a href="https://github.com/ondairos/tenzies_game">Github</a>{" "}
+              <a href="https://majestic-starship-884e43.netlify.app/">Live</a>
+            </p>
+            <p>
+              A dice game that allows players to roll the dice and keep track of
+              their scores.
+            </p>
+            <p className="sect2_tags">ReactJS, Javascript, HTML, CSS</p>
+          </div>
         </div>
+
         <div className="sect2_product">
           <img src={travel_shot} alt="Project 5"></img>
           <h3>Travel Journal</h3>
