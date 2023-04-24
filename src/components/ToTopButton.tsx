@@ -24,13 +24,13 @@ const ToTopButton = () => {
   };
 
   return (
-    <div>
+    <>
       {backToTop && (
         <button onClick={scrollUp} className="to_top_button">
           ^
         </button>
       )}
-    </div>
+    </>
   );
 };
 
