@@ -321,6 +321,10 @@
   color: Black;
 }
 
+.section3_col1_header h3 {
+  cursor: default;
+}
+
 .section3_col1_frontend_icontainer {
   text-align: left;
   display: flex;
@@ -340,6 +344,7 @@
   margin-right: 22px;
   color: black;
   width: 30%;
+  cursor: default;
 }
 
 .image {
