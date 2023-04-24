@@ -21,11 +21,11 @@ const Projects = () => {
               </a>{" "}
               <a href="https://luxury-taffy-98aa2d.netlify.app/">Live</a>
             </p>
-            <p>
+            <p className="sect2_descr">
               This is a FullStack web application that displays all the new card
-              content for an upcoming card game expansion. Using a custom made
-              REST API endpoint data is served to a React application that
-              displays it, filtered by classes.
+              content for an upcoming card game expansion.<br></br> Using a
+              custom made REST API endpoint data is served to a React
+              application that displays it, filtered by classes.
             </p>
             <p className="sect2_tags">
               <span className="s_tag">NodeJS</span>
@@ -43,10 +43,10 @@ const Projects = () => {
           <img src={flick_shot} alt="Project 3"></img>
           <div className="sect2_product_info">
             <h3>Flick Movie Search</h3>
-            <p>Movie Search App, utilizing ReactJS and OMDb API.</p>
-            <a href="https://github.com/ondairos/react_movie_project">
-              Github
-            </a>{" "}
+            <p className="sect2_descr">
+              Movie Search App, utilizing ReactJS and OMDb API.
+            </p>
+            <a href="https://github.com/ondairos/react_movie_project">Github</a>{" "}
             <a href="https://react-movie-deploy.vercel.app/">Live</a>
             <p className="sect2_tags">
               <span className="s_tag">ReactJS</span>{" "}
@@ -62,7 +62,7 @@ const Projects = () => {
           <img src={note_shot} alt="Project 4"></img>
           <div className="sect2_product_info">
             <h3>Notes Project</h3>
-            <p>
+            <p className="sect2_descr">
               Notes Project is a simple Markdown note-taking app built with
               React. It allows users to create, edit and save notes in Markdown
               format.
@@ -70,7 +70,12 @@ const Projects = () => {
             <a href="https://github.com/ondairos/notes_project">Github</a>{" "}
             <a href="">Live</a>
             <p className="sect2_tags">
-              ReactJS,React Split,Showdown, Javascript, HTML, CSS
+              <span className="s_tag">ReactJS</span>{" "}
+              <span className="s_tag">React Split</span>
+              <span className="s_tag">Showdown</span>
+              <span className="s_tag">Javascript</span>
+              <span className="s_tag">HTML</span>
+              <span className="s_tag">CSS</span>
             </p>
           </div>
         </div>
@@ -83,29 +88,44 @@ const Projects = () => {
               <a href="https://github.com/ondairos/tenzies_game">Github</a>{" "}
               <a href="https://majestic-starship-884e43.netlify.app/">Live</a>
             </p>
-            <p>
+            <p className="sect2_descr">
               A dice game that allows players to roll the dice and keep track of
               their scores.
             </p>
-            <p className="sect2_tags">ReactJS, Javascript, HTML, CSS</p>
+            <p className="sect2_tags">
+              <span className="s_tag">ReactJS</span>{" "}
+              <span className="s_tag">Javascript</span>
+              <span className="s_tag">HTML</span>
+              <span className="s_tag">CSS</span>
+            </p>
           </div>
         </div>
 
         <div className="sect2_product">
           <img src={travel_shot} alt="Project 5"></img>
           <h3>Travel Journal</h3>
-          <p>
+          <p className="sect2_descr">
             Travel Journal app created for displaying personal visits to
             international destinations.
           </p>
           <a href="https://github.com/ondairos/React_Travel_Guide">Github</a>{" "}
           <a href="https://celadon-clafoutis-93bebf.netlify.app/">Live</a>
-          <p className="sect2_tags">ReactJS, HTML, CSS</p>
+          <p className="sect2_tags">
+            <span className="s_tag">ReactJS</span>{" "}
+            <span className="s_tag">HTML</span>
+            <span className="s_tag">CSS</span>
+          </p>
         </div>
 
         <div className="sect2_product">
           <img src="https://via.placeholder.com/250x250" alt="Project 6"></img>
           <h3>Project 6</h3>
+          <p className="sect2_descr">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+            optio, quibusdam maxime fugiat, doloribus voluptatem excepturi sint
+            eius delectus corporis, commodi veniam! Perferendis officia magni
+            saepe corporis. Placeat, laborum rem?
+          </p>
           <a href="">Github</a> <a href="">Live</a>
         </div>
       </div>
