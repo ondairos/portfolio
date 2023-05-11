@@ -60,31 +60,33 @@ const Projects = () => {
             src={blog_shot}
             alt="Project 3"
           ></img>
-          <h3 className="sect2_header_h3">Personal Blog</h3>
-          <div className="sect2_links_container">
-            {" "}
-            <a href="https://github.com/ondairos/blog">
-              <img
-                className="sect2_github_icon"
-                src={github_icon}
-                alt="github"
-              ></img>
-            </a>{" "}
-            <a href="https://blog-ondairos.vercel.app/">
-              <img className="sect2_github_icon" src={live_icon} alt="live" />
-            </a>
+          <div className="sect2_product_info">
+            <h3 className="sect2_header_h3">Personal Blog</h3>
+            <div className="sect2_links_container">
+              {" "}
+              <a href="https://github.com/ondairos/blog">
+                <img
+                  className="sect2_github_icon"
+                  src={github_icon}
+                  alt="github"
+                ></img>
+              </a>{" "}
+              <a href="https://blog-ondairos.vercel.app/">
+                <img className="sect2_github_icon" src={live_icon} alt="live" />
+              </a>
+            </div>
+            <p className="sect2_descr">
+              Personal static generated Blog created with NextJS and deployed on
+              Vercel.
+            </p>
+            <p className="sect2_tags">
+              <span className="s_tag">NextJS</span>
+              <span className="s_tag">Typescript</span>
+              <span className="s_tag">TailwindCSS</span>
+              <span className="s_tag">Gray Matter</span>
+              <span className="s_tag">Remark</span>
+            </p>
           </div>
-          <p className="sect2_descr">
-            Personal static generated Blog created with NextJS and deployed on
-            Vercel.
-          </p>
-          <p className="sect2_tags">
-            <span className="s_tag">NextJS</span>
-            <span className="s_tag">Typescript</span>
-            <span className="s_tag">TailwindCSS</span>
-            <span className="s_tag">Gray Matter</span>
-            <span className="s_tag">Remark</span>
-          </p>
         </div>
 
         <div className="sect2_product">
