@@ -7,7 +7,7 @@ import hs_shot from "../assets/hs_screen.jpg";
 import flick_shot from "../assets/flick_screen.jpg";
 import note_shot from "../assets/Notes_screen.jpg";
 import travel_shot from "../assets/travel_screen.jpg";
-import digital_card_shot from "../assets/digital_card_screen.jpg";
+import blog_shot from "../assets/blog_image.jpg";
 
 const Projects = () => {
   return (
@@ -53,6 +53,40 @@ const Projects = () => {
             </p>
           </div>
         </div>
+
+        <div className="sect2_product">
+          <img
+            className="sect2_product_img"
+            src={blog_shot}
+            alt="Project 3"
+          ></img>
+          <h3 className="sect2_header_h3">Personal Blog</h3>
+          <div className="sect2_links_container">
+            {" "}
+            <a href="https://github.com/ondairos/blog">
+              <img
+                className="sect2_github_icon"
+                src={github_icon}
+                alt="github"
+              ></img>
+            </a>{" "}
+            <a href="https://blog-ondairos.vercel.app/">
+              <img className="sect2_github_icon" src={live_icon} alt="live" />
+            </a>
+          </div>
+          <p className="sect2_descr">
+            Personal static generated Blog created with NextJS and deployed on
+            Vercel.
+          </p>
+          <p className="sect2_tags">
+            <span className="s_tag">NextJS</span>
+            <span className="s_tag">Typescript</span>
+            <span className="s_tag">TailwindCSS</span>
+            <span className="s_tag">Gray Matter</span>
+            <span className="s_tag">Remark</span>
+          </p>
+        </div>
+
         <div className="sect2_product">
           <img
             className="sect2_product_img"
@@ -189,36 +223,6 @@ const Projects = () => {
               <span className="s_tag">CSS</span>
             </p>
           </div>
-        </div>
-
-        <div className="sect2_product">
-          <img
-            className="sect2_product_img"
-            src={digital_card_shot}
-            alt="Project 6"
-          ></img>
-          <h3 className="sect2_header_h3">Digital Card</h3>
-          <div className="sect2_links_container">
-            {" "}
-            <a href="https://github.com/ondairos/digital_card">
-              <img
-                className="sect2_github_icon"
-                src={github_icon}
-                alt="github"
-              ></img>
-            </a>{" "}
-            <a href="https://stirring-gecko-25862c.netlify.app/">
-              <img className="sect2_github_icon" src={live_icon} alt="live" />
-            </a>
-          </div>
-          <p className="sect2_descr">
-            Digital Personal Card created ReactJS, HTML and CSS.
-          </p>
-          <p className="sect2_tags">
-            <span className="s_tag">ReactJS</span>
-            <span className="s_tag">HTML</span>
-            <span className="s_tag">CSS</span>
-          </p>
         </div>
       </div>
     </div>
