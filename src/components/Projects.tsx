@@ -15,11 +15,13 @@ const Projects = () => {
       <h1 className="section2_header">Projects</h1>
       <div className="sect2_container">
         <div className="sect2_product">
-          <img
-            className="sect2_product_img"
-            src={hs_shot}
-            alt="Project 2"
-          ></img>
+          <a href="https://luxury-taffy-98aa2d.netlify.app/">
+            <img
+              className="sect2_product_img"
+              src={hs_shot}
+              alt="Project 2"
+            ></img>
+          </a>
           <div className="sect2_product_info">
             <h3 className="sect2_header_h3">Festival of Legends</h3>
             <div className="sect2_links_container">
@@ -55,11 +57,14 @@ const Projects = () => {
         </div>
 
         <div className="sect2_product">
-          <img
-            className="sect2_product_img"
-            src={blog_shot}
-            alt="Project 3"
-          ></img>
+          <a href="https://blog-ondairos.vercel.app/">
+            <img
+              className="sect2_product_img"
+              src={blog_shot}
+              alt="Project 3"
+            ></img>
+          </a>
+
           <div className="sect2_product_info">
             <h3 className="sect2_header_h3">Personal Blog</h3>
             <div className="sect2_links_container">
@@ -92,11 +97,13 @@ const Projects = () => {
         </div>
 
         <div className="sect2_product">
-          <img
-            className="sect2_product_img"
-            src={flick_shot}
-            alt="Project 3"
-          ></img>
+          <a href="https://react-movie-deploy.vercel.app/">
+            <img
+              className="sect2_product_img"
+              src={flick_shot}
+              alt="Project 4"
+            ></img>
+          </a>
           <div className="sect2_product_info">
             <h3 className="sect2_header_h3">Flick Movie Search</h3>
             <div className="sect2_links_container">
@@ -127,11 +134,13 @@ const Projects = () => {
         </div>
 
         <div className="sect2_product">
-          <img
-            className="sect2_product_img"
-            src={note_shot}
-            alt="Project 4"
-          ></img>
+          <a href="#">
+            <img
+              className="sect2_product_img"
+              src={note_shot}
+              alt="Project 5"
+            ></img>
+          </a>
           <div className="sect2_product_info">
             <h3 className="sect2_header_h3">Notes Project</h3>
             <div className="sect2_links_container">
@@ -165,11 +174,13 @@ const Projects = () => {
         </div>
 
         <div className="sect2_product">
-          <img
-            className="sect2_product_img"
-            src={tenzies_shot}
-            alt="Project 1"
-          ></img>
+          <a href="https://majestic-starship-884e43.netlify.app/">
+            <img
+              className="sect2_product_img"
+              src={tenzies_shot}
+              alt="Project 6"
+            ></img>
+          </a>
           <div className="sect2_product_info">
             <h3 className="sect2_header_h3">Tenzies Dice Game</h3>
             <div className="sect2_links_container">
@@ -198,11 +209,13 @@ const Projects = () => {
         </div>
 
         <div className="sect2_product">
-          <img
-            className="sect2_product_img"
-            src={travel_shot}
-            alt="Project 5"
-          ></img>
+          <a href="https://celadon-clafoutis-93bebf.netlify.app/">
+            <img
+              className="sect2_product_img"
+              src={travel_shot}
+              alt="Project 7"
+            ></img>
+          </a>
           <div className="sect2_product_info">
             <h3 className="sect2_header_h3">Travel Journal</h3>
             <div className="sect2_links_container">
