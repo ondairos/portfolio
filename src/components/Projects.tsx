@@ -77,7 +77,9 @@ const Projects = () => {
             </div>
             <p className="sect2_descr">
               Personal static generated Blog created with NextJS and deployed on
-              Vercel.
+              Vercel.<br></br>
+              <br></br> Adding blog posts through .md files, parsing them with
+              gray-matter and remark and displaying them to the user.
             </p>
             <p className="sect2_tags">
               <span className="s_tag">NextJS</span>
@@ -110,9 +112,9 @@ const Projects = () => {
               </a>
             </div>
             <p className="sect2_descr">
-              Movie Search App, utilizing ReactJS and OMDb API.<br></br>Type
-              your query in the search box and click the icon to get your info
-              about the movies you want.
+              Movie Search App, utilizing ReactJS and OMDb API.<br></br>
+              <br></br>Type your query in the search box and click the icon to
+              get your info about the movies you want.
             </p>
             <p className="sect2_tags">
               <span className="s_tag">ReactJS</span>{" "}
