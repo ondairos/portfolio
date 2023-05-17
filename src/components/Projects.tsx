@@ -144,14 +144,14 @@ const Projects = () => {
           <div className="sect2_product_info">
             <h3 className="sect2_header_h3">WikiPocket</h3>
             <div className="sect2_links_container">
-              <a href="https://github.com/ondairos/notes_project">
+              <a href="https://wiki-pocket.vercel.app/">
                 <img
                   className="sect2_github_icon"
                   src={github_icon}
                   alt="github"
                 ></img>
               </a>{" "}
-              <a href="">
+              <a href="https://wiki-pocket.vercel.app/">
                 <img className="sect2_github_icon" src={live_icon} alt="live" />
               </a>
             </div>
