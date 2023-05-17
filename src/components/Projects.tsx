@@ -134,7 +134,7 @@ const Projects = () => {
         </div>
 
         <div className="sect2_product">
-          <a href="#">
+          <a href="https://wiki-pocket.vercel.app/">
             <img
               className="sect2_product_img"
               src={wikipocket_shot}
