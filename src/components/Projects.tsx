@@ -5,9 +5,9 @@ import live_icon from "../assets/tsicons/website-layout-icon.svg";
 import tenzies_shot from "../assets/tenzies_screen.jpg";
 import hs_shot from "../assets/hs_screen.jpg";
 import flick_shot from "../assets/flick_screen.jpg";
-import note_shot from "../assets/Notes_screen.jpg";
 import travel_shot from "../assets/travel_screen.jpg";
 import blog_shot from "../assets/blog_image.jpg";
+import wikipocket_shot from "../assets/wikipocket.png";
 
 const Projects = () => {
   return (
@@ -137,12 +137,12 @@ const Projects = () => {
           <a href="#">
             <img
               className="sect2_product_img"
-              src={note_shot}
+              src={wikipocket_shot}
               alt="Project 5"
             ></img>
           </a>
           <div className="sect2_product_info">
-            <h3 className="sect2_header_h3">Notes Project</h3>
+            <h3 className="sect2_header_h3">WikiPocket</h3>
             <div className="sect2_links_container">
               <a href="https://github.com/ondairos/notes_project">
                 <img
@@ -157,16 +157,15 @@ const Projects = () => {
             </div>
 
             <p className="sect2_descr">
-              Notes Project is a simple Markdown note-taking app built with
-              React.
-              <br /> It allows users to create, edit and save notes in Markdown
-              format.
+              WikiPocket is a wikipedia search page that provides the user
+              wikipedia based on provided query.
+              <br /> It allows users to view a small summary and thumbnail of
+              the searched keyword.
             </p>
             <p className="sect2_tags">
-              <span className="s_tag">ReactJS</span>{" "}
-              <span className="s_tag">React Split</span>
-              <span className="s_tag">Showdown</span>
+              <span className="s_tag">NextJS</span>{" "}
               <span className="s_tag">Javascript</span>
+              <span className="s_tag">Wikipedia API</span>
               <span className="s_tag">HTML</span>
               <span className="s_tag">CSS</span>
             </p>
