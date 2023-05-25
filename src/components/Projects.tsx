@@ -5,9 +5,9 @@ import live_icon from "../assets/tsicons/website-layout-icon.svg";
 import tenzies_shot from "../assets/tenzies_screen.jpg";
 import hs_shot from "../assets/hs_screen.jpg";
 import flick_shot from "../assets/flick_screen.jpg";
-import travel_shot from "../assets/travel_screen.jpg";
 import blog_shot from "../assets/blog_image.jpg";
 import wikipocket_shot from "../assets/wikipocket.png";
+import ecommerce_shot from "../assets/ecom_image.jpg";
 
 const Projects = () => {
   return (
@@ -208,35 +208,38 @@ const Projects = () => {
         </div>
 
         <div className="sect2_product">
-          <a href="https://celadon-clafoutis-93bebf.netlify.app/">
+          <a href="https://ecommerce-app-taupe-six.vercel.app/">
             <img
               className="sect2_product_img"
-              src={travel_shot}
+              src={ecommerce_shot}
               alt="Project 7"
             ></img>
           </a>
           <div className="sect2_product_info">
-            <h3 className="sect2_header_h3">Travel Journal</h3>
+            <h3 className="sect2_header_h3">e-Commerce Page</h3>
             <div className="sect2_links_container">
-              <a href="https://github.com/ondairos/React_Travel_Guide">
+              <a href="https://github.com/ondairos/ecommerce-app">
                 <img
                   className="sect2_github_icon"
                   src={github_icon}
                   alt="github"
                 ></img>
               </a>{" "}
-              <a href="https://celadon-clafoutis-93bebf.netlify.app/">
+              <a href="https://ecommerce-app-taupe-six.vercel.app/">
                 <img className="sect2_github_icon" src={live_icon} alt="live" />
               </a>
             </div>
             <p className="sect2_descr">
-              Travel Journal app created for displaying personal visits to
-              international destinations.
+              e-Commerce webpage that displays <br></br>Deals of the Day, Modal
+              View, Rating and Details of products provided by a store API.
             </p>
             <p className="sect2_tags">
-              <span className="s_tag">ReactJS</span>{" "}
+              <span className="s_tag">NextJS</span>{" "}
+              <span className="s_tag">HeadlessUI</span>
+              <span className="s_tag">Hero Icons</span>
               <span className="s_tag">HTML</span>
-              <span className="s_tag">CSS</span>
+              <span className="s_tag">Tailwind CSS</span>
+              <span className="s_tag">Typescript</span>
             </p>
           </div>
         </div>
