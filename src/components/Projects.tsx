@@ -2,12 +2,12 @@ import React from "react";
 import "../App.css";
 import github_icon from "../assets/tsicons/github-icon.svg";
 import live_icon from "../assets/tsicons/website-layout-icon.svg";
-import tenzies_shot from "../assets/tenzies_screen.jpg";
 import hs_shot from "../assets/hs_screen.jpg";
 import flick_shot from "../assets/flick_screen.jpg";
 import blog_shot from "../assets/blog_image.jpg";
 import wikipocket_shot from "../assets/wikipocket.png";
 import ecommerce_shot from "../assets/ecom_image.jpg";
+import insta_clone_shot from "../assets/instaclone.jpg";
 
 const Projects = () => {
   return (
@@ -173,36 +173,40 @@ const Projects = () => {
         </div>
 
         <div className="sect2_product">
-          <a href="https://majestic-starship-884e43.netlify.app/">
+          <a href="https://instagram-clone-ondairos.vercel.app/">
             <img
               className="sect2_product_img"
-              src={tenzies_shot}
+              src={insta_clone_shot}
               alt="Project 6"
             ></img>
           </a>
           <div className="sect2_product_info">
-            <h3 className="sect2_header_h3">Tenzies Dice Game</h3>
+            <h3 className="sect2_header_h3">Instagram Clone</h3>
             <div className="sect2_links_container">
-              <a href="https://github.com/ondairos/tenzies_game">
+              <a href="https://github.com/ondairos/instagram_clone">
                 <img
                   className="sect2_github_icon"
                   src={github_icon}
                   alt="github"
                 ></img>
               </a>{" "}
-              <a href="https://majestic-starship-884e43.netlify.app/">
+              <a href="https://instagram-clone-ondairos.vercel.app/">
                 <img className="sect2_github_icon" src={live_icon} alt="live" />
               </a>
             </div>
             <p className="sect2_descr">
-              A dice game that allows players to roll the dice and keep track of
-              their scores.
+              This is a project that aims to replicate features of Instagram
+              using modern web technologies.The project includes frontend
+              components and Firebase integration for authentication and data
+              storage.
             </p>
             <p className="sect2_tags">
-              <span className="s_tag">ReactJS</span>{" "}
-              <span className="s_tag">Javascript</span>
-              <span className="s_tag">HTML</span>
-              <span className="s_tag">CSS</span>
+              <span className="s_tag">NextJS</span>{" "}
+              <span className="s_tag">TailwindCSS</span>
+              <span className="s_tag">Firebase</span>
+              <span className="s_tag">Recoil</span>
+              <span className="s_tag">TypeScript</span>
+              <span className="s_tag">Next-Auth</span>
             </p>
           </div>
         </div>
@@ -232,6 +236,7 @@ const Projects = () => {
             <p className="sect2_descr">
               e-Commerce webpage that displays <br></br>Deals of the Day, Modal
               View, Rating and Details of products provided by a store API.
+              <br></br> This is a FrontEnd project made with NextJS.
             </p>
             <p className="sect2_tags">
               <span className="s_tag">NextJS</span>{" "}
