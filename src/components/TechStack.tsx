@@ -5,6 +5,7 @@ import HtmlIcon from "../assets/tsicons/html-icon.svg";
 import CSSIcon from "../assets/tsicons/css-icon.svg";
 import JSIcon from "../assets/tsicons/javascript-programming-language-icon.svg";
 import TSIcon from "../assets/tsicons/typescript-programming-language-icon.svg";
+import VueIcon from "../assets/tsicons/vue-icon.svg";
 
 import NodeIcon from "../assets/tsicons/node-js-icon.svg";
 import MongoIcon from "../assets/tsicons/mongodb-icon.svg";
@@ -40,21 +41,21 @@ const TechStack = () => {
               </div>
               <div className="section3_col1_fr_ip">
                 <div className="image">
-                  <img src={ReactIcon} alt="ReactIcon" />
-                </div>
-                <p>ReactJS</p>
-              </div>
-              <div className="section3_col1_fr_ip">
-                <div className="image">
                   <img src={JSIcon} alt="JSIcon" />
                 </div>
                 <p>JavaScript</p>
               </div>
               <div className="section3_col1_fr_ip">
                 <div className="image">
-                  <img src={TSIcon} alt="TSIcon" />
+                  <img src={ReactIcon} alt="ReactIcon" />
                 </div>
-                <p>TypeScript</p>
+                <p>ReactJS</p>
+              </div>
+              <div className="section3_col1_fr_ip">
+                <div className="image">
+                  <img src={VueIcon} alt="TSIcon" />
+                </div>
+                <p>VueJS</p>
               </div>
             </div>
           </div>

@@ -13,7 +13,7 @@ const About = () => {
           <h2 className="greeter">
             Hi, I am <span className="section_name_span">John.</span> <br />
           </h2>
-          Junior Full Stack Developer <br /> passionate about creating
+          Junior Web Developer <br /> passionate about creating
           <br />
           interactive and cool applications.
         </section>
