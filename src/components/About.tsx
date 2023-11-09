@@ -1,8 +1,6 @@
 import React from "react";
 import "../App.css";
 import iconPhoto from "../assets/IconPhotoPX.jpg";
-// animejs
-// import anime from "animejs/lib/anime.es.js";
 
 const About = () => {
   return (
