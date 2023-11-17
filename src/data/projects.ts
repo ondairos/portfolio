@@ -3,6 +3,7 @@ import flick_shot from "../assets/flick_screen.jpg";
 import blog_shot from "../assets/blog_image.jpg";
 import wikipocket_shot from "../assets/wikipocket.png";
 import ecommerce_shot from "../assets/ecom_image.jpg";
+import jobSeeker_shot from "../assets/job_seeker_screen.png";
 import insta_clone_shot from "../assets/instaclone.jpg";
 
 type projectDataTypes = {
@@ -16,19 +17,19 @@ type projectDataTypes = {
 
 export const projectData: projectDataTypes[] = [
   {
-    name: "Festival of Legends",
-    link: "https://luxury-taffy-98aa2d.netlify.app/",
-    gh_link: "https://github.com/ondairos/Festival_of_Legends_Cards",
-    image: hs_shot,
+    name: "Job Seeker",
+    link: "https://job-seeker-ten.vercel.app/",
+    gh_link: "https://github.com/ondairos/job_seeker",
+    image: jobSeeker_shot,
     description:
-      "This is a FullStack web application that displays all the new card content for an upcoming card game expansion.Using a custom made REST API endpoint data is served to a React application that displays it, filtered by classes.",
+      "Job Seeker Frontend project built with Vue, showcasing a job searching platform based on Goggles Job Search page. Visit the Jobs section and select your prefered job.",
     tags: [
-      "NodeJS",
-      "ExpressJS",
-      "ReactJS",
+      "VueJS",
+      "Vuex",
       "TypeScript",
-      "Axios",
-      "REST API",
+      "TailwindCSS",
+      "Vuex",
+      "Font Awesome",
       "HTML",
       "CSS",
     ],
@@ -50,6 +51,24 @@ export const projectData: projectDataTypes[] = [
     description:
       "Movie Search App, utilizing ReactJS and OMDb API.Type your query in the search box and click the icon to get your info about the movies you want.",
     tags: ["ReactJS", "JavaScript", "OMDb API", "HTML", "CSS"],
+  },
+  {
+    name: "Festival of Legends",
+    link: "https://luxury-taffy-98aa2d.netlify.app/",
+    gh_link: "https://github.com/ondairos/Festival_of_Legends_Cards",
+    image: hs_shot,
+    description:
+      "This is a FullStack web application that displays all the new card content for an upcoming card game expansion. Using a custom made REST API endpoint data is served to a React application that displays it, filtered by classes.",
+    tags: [
+      "NodeJS",
+      "ExpressJS",
+      "ReactJS",
+      "TypeScript",
+      "Axios",
+      "REST API",
+      "HTML",
+      "CSS",
+    ],
   },
   {
     name: "WikiPocket",
@@ -74,22 +93,6 @@ export const projectData: projectDataTypes[] = [
       "Recoil",
       "TypeScript",
       "Next-Auth",
-    ],
-  },
-  {
-    name: "e-Commerce Page",
-    link: "https://ecommerce-app-taupe-six.vercel.app/",
-    gh_link: "https://github.com/ondairos/ecommerce-app",
-    image: ecommerce_shot,
-    description:
-      "e-Commerce webpage that displays Deals of the Day, Modal View, Rating and Details of products provided by a store API. <br></br> This is a FrontEnd project made with NextJS.",
-    tags: [
-      "NextJS",
-      "HeadlessUI",
-      "Hero Icons",
-      "HTML",
-      "TailwindCSS",
-      "TypeScript",
     ],
   },
 ];
