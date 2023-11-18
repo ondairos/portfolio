@@ -22,7 +22,7 @@ export const projectData: projectDataTypes[] = [
     gh_link: "https://github.com/ondairos/job_seeker",
     image: jobSeeker_shot,
     description:
-      "Job Seeker Frontend project built with Vue, showcasing a job searching platform based on Goggles Job Search page. Visit the Jobs section and select your prefered job.",
+      "Job Seeker Frontend project built with Vue, showcasing a job searching platform based on Goggles Job Search page. Visit the Jobs section and select your preferred job.",
     tags: [
       "VueJS",
       "Vuex",
