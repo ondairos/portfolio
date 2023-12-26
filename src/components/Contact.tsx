@@ -5,7 +5,7 @@ import linkedin_icon from "../assets/tsicons/linkedin-square-icon.svg";
 
 const Contact = () => {
   return (
-    <div id="sect4" className="box section4">
+    <div id="sect4" className="section4">
       <section className="contact">
         <div className="contact-form">
           <h1>
