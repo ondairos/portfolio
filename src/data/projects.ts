@@ -49,7 +49,7 @@ export const projectData: projectDataTypes[] = [
     gh_link: "https://github.com/ondairos/excelsior_portfolio",
     image: excelsior_shot,
     description:
-      "Excelsior TFT is a vibrant project that brings a humorous touch to exploring Team Fight Tactics compositions. With an interactive hexagon layout and dynamic content updates based on user selection, users can easily navigate Tier S and Tier 1 compositions. Testimonials, funny quotes create an engaging and entertaining experience for TFT enthusiasts.",
+      "Excelsior TFT is a vibrant project that brings a humorous touch to exploring Team Fight Tactics compositions. With an interactive hexagon layout and dynamic content updates based on user selection, users can easily navigate Tier 1 compositions. Testimonials, funny quotes create an engaging and entertaining experience for TFT enthusiasts.",
     tags: ["HTML", "SASS", "JavaScript"],
   },
   {
