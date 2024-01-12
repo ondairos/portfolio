@@ -1,9 +1,40 @@
-import React from "react";
+import React, { useRef } from "react";
 import "../App.css";
 import email_icon from "../assets/tsicons/email-envelop-open-icon.svg";
 import linkedin_icon from "../assets/tsicons/linkedin-square-icon.svg";
+import emailjs from "@emailjs/browser";
+
+const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const USER_ID = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
 const Contact = () => {
+  const form = useRef<HTMLFormElement>(null);
+
+  // @ts-expect-error type emailjs
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        SERVICE_ID,
+        TEMPLATE_ID,
+        // @ts-expect-error type
+        form.current,
+        USER_ID
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("Message sent!");
+          e.target.reset();
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <div id="sect4" className="section4">
       <section className="contact">
@@ -37,25 +68,27 @@ const Contact = () => {
               </p>
             </div>
           </div>
-          <form action="">
-            <input type="text" placeholder="Your Name" required />
+          <form ref={form} onSubmit={sendEmail}>
+            <input
+              type="text"
+              placeholder="Your Name"
+              name="to_name"
+              required
+            />
             <input
               type="email"
-              name="email"
-              id=""
+              name="from_name"
               placeholder="E-mail"
               required
             />
-            <input type="" placeholder="Write a Subject" required />
             <textarea
-              name=""
-              id=""
+              name="message"
               cols={parseInt("30")}
               rows={parseInt("10")}
               placeholder="Your Message"
               required
             ></textarea>
-            <input type="submit" name="" value="Submit" className="btn" />
+            <input type="submit" value="Send" className="btn" />
           </form>
           <div className="contact-img">
             <s></s>

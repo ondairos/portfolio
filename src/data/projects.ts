@@ -2,9 +2,9 @@ import hs_shot from "../assets/hs_screen.jpg";
 import flick_shot from "../assets/flick_screen.jpg";
 import blog_shot from "../assets/blog_image.jpg";
 import wikipocket_shot from "../assets/wikipocket.png";
-import ecommerce_shot from "../assets/ecom_image.jpg";
 import jobSeeker_shot from "../assets/job_seeker_screen.png";
 import insta_clone_shot from "../assets/instaclone.jpg";
+import excelsior_shot from "../assets/excelsior_tft_shot.jpg";
 
 type projectDataTypes = {
   name: string;
@@ -44,6 +44,15 @@ export const projectData: projectDataTypes[] = [
     tags: ["NextJS", "TypeScript", "TailwindCSS", "Gray Matter", "Remark"],
   },
   {
+    name: "Excelsior TFT",
+    link: "https://excelsior-portfolio.vercel.app/",
+    gh_link: "https://github.com/ondairos/excelsior_portfolio",
+    image: excelsior_shot,
+    description:
+      "Excelsior TFT is a vibrant project that brings a humorous touch to exploring Team Fight Tactics compositions. With an interactive hexagon layout and dynamic content updates based on user selection, users can easily navigate Tier S and Tier 1 compositions. Testimonials, funny quotes create an engaging and entertaining experience for TFT enthusiasts.",
+    tags: ["HTML", "SASS", "JavaScript"],
+  },
+  {
     name: "Flick Movie Search",
     link: "https://react-movie-deploy.vercel.app/",
     gh_link: "https://github.com/ondairos/react_movie_project",
@@ -78,21 +87,5 @@ export const projectData: projectDataTypes[] = [
     description:
       "WikiPocket is a wikipedia search page that provides the user wikipedia based on provided query.It allows users to view a small summary and thumbnail of the searched keyword.",
     tags: ["NextJS", "JavaScript", "Wikipedia API", "HTML", "CSS"],
-  },
-  {
-    name: "Instagram Clone",
-    link: "https://instagram-clone-ondairos.vercel.app/",
-    gh_link: "https://github.com/ondairos/instagram_clone",
-    image: insta_clone_shot,
-    description:
-      "This is a project that aims to replicate features of Instagram using modern web technologies.The project includes frontend components and Firebase integration for authentication and data storage.",
-    tags: [
-      "NextJS",
-      "TailwindCSS",
-      "Firebase",
-      "Recoil",
-      "TypeScript",
-      "Next-Auth",
-    ],
   },
 ];

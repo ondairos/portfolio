@@ -6,6 +6,7 @@ import TechStack from "./components/TechStack";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import ToTopButton from "./components/ToTopButton";
+// import { useEffect } from "react";
 
 function App() {
   return (

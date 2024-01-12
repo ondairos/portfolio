@@ -24,7 +24,7 @@ const TechStack = () => {
             <div className="section3_col1_frontend_icontainer">
               {frontEndTechstackData.map((element: techStackData) => {
                 return (
-                  <div className="section3_col1_fr_ip">
+                  <div className="section3_col1_fr_ip" key={element.name}>
                     <div className="image">
                       <img src={element.image} alt={element.name} />
                     </div>
@@ -43,7 +43,7 @@ const TechStack = () => {
             <div className="section3_col1_frontend_icontainer">
               {backendTechstackData.map((element: techStackData) => {
                 return (
-                  <div className="section3_col1_fr_ip">
+                  <div className="section3_col1_fr_ip" key={element.name}>
                     <div className="image">
                       <img src={element.image} alt={element.name} />
                     </div>
@@ -62,7 +62,7 @@ const TechStack = () => {
             <div className="section3_col1_frontend_icontainer">
               {otherTechstackData.map((element: techStackData) => {
                 return (
-                  <div className="section3_col1_fr_ip">
+                  <div className="section3_col1_fr_ip" key={element.name}>
                     <div className="image">
                       <img src={element.image} alt={element.name} />
                     </div>

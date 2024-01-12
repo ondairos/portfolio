@@ -13,9 +13,6 @@
   flex-wrap: wrap;
   height: 100vh;
   font-family: "Montserrat", sans-serif;
-  /* flex-direction: column; */
-  /* flex-direction: row-reverse; */
-  /* flex-direction: column-reverse; */
   text-align: center;
   background-color: gray;
 }

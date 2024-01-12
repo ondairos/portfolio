@@ -20,7 +20,7 @@ const Projects = () => {
       <div className="sect2_container">
         {projectData.map((element: projectDataTypes) => {
           return (
-            <div className="sect2_product">
+            <div className="sect2_product" key={element.name}>
               <a href={element.link}>
                 <img
                   className="sect2_product_img"
@@ -49,8 +49,12 @@ const Projects = () => {
                 </div>
                 <p className="sect2_descr">{element.description}</p>
                 <p className="sect2_tags">
-                  {element.tags.map((element) => {
-                    return <span className="s_tag">{element}</span>;
+                  {element.tags.map((element, index) => {
+                    return (
+                      <span className="s_tag" key={index}>
+                        {element}
+                      </span>
+                    );
                   })}
                 </p>
               </div>
