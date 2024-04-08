@@ -3,8 +3,8 @@ import flick_shot from "../assets/flick_screen.jpg";
 import blog_shot from "../assets/blog_image.jpg";
 import wikipocket_shot from "../assets/wikipocket.png";
 import jobSeeker_shot from "../assets/job_seeker_screen.png";
-import insta_clone_shot from "../assets/instaclone.jpg";
 import excelsior_shot from "../assets/excelsior_tft_shot.jpg";
+import energyPrices_shot from "../assets/energy_prices_shot.png";
 
 type projectDataTypes = {
   name: string;
@@ -52,14 +52,15 @@ export const projectData: projectDataTypes[] = [
       "Excelsior TFT is a vibrant project that brings a humorous touch to exploring Team Fight Tactics compositions. With an interactive hexagon layout and dynamic content updates based on user selection, users can easily navigate Tier 1 compositions. Testimonials, funny quotes create an engaging and entertaining experience for TFT enthusiasts.",
     tags: ["HTML", "SASS", "JavaScript"],
   },
+
   {
-    name: "Flick Movie Search",
-    link: "https://react-movie-deploy.vercel.app/",
-    gh_link: "https://github.com/ondairos/react_movie_project",
-    image: flick_shot,
+    name: "Energy Price App",
+    link: "https://vue-data-assignment.vercel.app/",
+    gh_link: "https://github.com/ondairos/vue_data_assignment/",
+    image: energyPrices_shot,
     description:
-      "Movie Search App, utilizing ReactJS and OMDb API.Type your query in the search box and click the icon to get your info about the movies you want.",
-    tags: ["ReactJS", "JavaScript", "OMDb API", "HTML", "CSS"],
+      "This project showcases the use of Vue.js to create a responsive data visualization application that allows users to view and filter energy price data for three countries in a table and chart format.",
+    tags: ["VueJS", "JavaScript", "TailwindCSS", "Chart.js"],
   },
   {
     name: "Festival of Legends",
@@ -80,12 +81,12 @@ export const projectData: projectDataTypes[] = [
     ],
   },
   {
-    name: "WikiPocket",
-    link: "https://wiki-pocket.vercel.app/",
-    gh_link: "https://github.com/ondairos/WikiPocket",
-    image: wikipocket_shot,
+    name: "Flick Movie Search",
+    link: "https://react-movie-deploy.vercel.app/",
+    gh_link: "https://github.com/ondairos/react_movie_project",
+    image: flick_shot,
     description:
-      "WikiPocket is a wikipedia search page that provides the user wikipedia based on provided query.It allows users to view a small summary and thumbnail of the searched keyword.",
-    tags: ["NextJS", "JavaScript", "Wikipedia API", "HTML", "CSS"],
+      "Movie Search App, utilizing ReactJS and OMDb API.Type your query in the search box and click the icon to get your info about the movies you want.",
+    tags: ["ReactJS", "JavaScript", "OMDb API", "HTML", "CSS"],
   },
 ];
